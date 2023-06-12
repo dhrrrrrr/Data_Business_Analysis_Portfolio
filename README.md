@@ -8,12 +8,12 @@ This repository is a place for me to share my projects and demonstrate my abilit
 
 ## Table of Contents
 1. [About Me](#About)
-2. [Portfolio Project](#Projects)
+2. [Portfolio Projects](#Projects)
 3. [Certificates](#Certificates)
 4. [Contacts](#Contacts)
 
-## Project <a name="Projects"></a>
+## Portfolio Projects <a name="Projects"></a>
 
-## Certificate <a name="Certificates"></a>
+## Certificates <a name="Certificates"></a>
 
 ## Contacts <a name="Contacts"></a>
