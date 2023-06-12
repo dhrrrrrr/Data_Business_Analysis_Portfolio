@@ -6,7 +6,7 @@ Hi, my name is Haoran. Welcome to my portfolio! I am passionate about leveraging
 
 This repository is a place for me to share my projects and demonstrate my abilities.
 
-## Table of Content
+## Table of Contents
 1. [About Me](#About)
 2. [Portfolio Project](#Projects)
 3. [Certificates](#Certificates)
