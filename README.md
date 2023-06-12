@@ -1,4 +1,4 @@
-# Haoran Data Business Analysis Portfolio
+# Haoran - Data Business Analysis Portfolio
 
 ## Introduction <a name="About Me"></a>
 
