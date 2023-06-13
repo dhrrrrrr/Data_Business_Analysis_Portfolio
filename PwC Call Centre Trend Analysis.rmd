@@ -1,0 +1,16 @@
+---
+title: "PwC Call Centre Trend Analysis"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Background
+
+In the highly competitive world of telecom marketing, companies constantly vie for customer attention by offering deals and services. However, the question of what customers really want is what companies strive to know. To find answers to this question, our client has recognized the importance of customer data. They have tasked us with creating a Power BI dashboard. This dashboard aims to reflect all relevant KPIs and metrics derived from their dataset, enabling decision-makers to gain valuable insights and make informed strategic decisions.
+
+## 2. Data Collection
+
+The dataset was provided the company. It is in .xls format and records 5000 calls from Jan 1, 2021 to Mar 31, 2021.
