@@ -1,6 +1,6 @@
 ---
 title: "PwC Call Centre Trend Analysis"
-output: pdf_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
