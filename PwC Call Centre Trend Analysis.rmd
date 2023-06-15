@@ -1,8 +1,8 @@
 ---
 title: "PwC Call Centre Trend Analysis"
-output:   
+output:
   html_document:
-    keep_md: true
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -16,3 +16,41 @@ In the highly competitive world of telecom marketing, companies constantly vie f
 ## 2. Data Collection
 
 The dataset was provided the company. It is in .xls format and records 5000 calls from Jan 1, 2021 to Mar 31, 2021.
+
+## 3. Data preparation
+
+I took a glance on the dataset in Excel and got to know this datasets consists of the following columns: call_id(int), agent(char), date(date), time(time), topic(char), answered(bool), resolved(bool), speed_of_answers_in_seconds(int), avgtalkduration(time), and satisfaction_rating(int).
+
+### 3.1 Data Cleaning and Processing: Power Query Editor
+
+Upon connecting to the provided dataset in Power BI, I performed several data cleaning and processing steps in the Power Query Editor to ensure the data is accurate and ready for analysis. Here is an overview of the actions taken:
+
+* Changing Data Types: I noticed that the 'Time' column was incorrectly labeled as a DateTime data type in Power BI. To rectify this, I adjusted the data type of the column to Time, aligning it with the original source format.
+
+* Adjusting Format: Since the 'AvgTalkDuration' column represents the duration of calls, it should be treated as a duration rather than a specific time point. I modified the format of the column to 'hh:mm:ss' to  represent the call durations. Additionally, to facilitate subsequent calculations involving the average handling time, I created a new column called 'AvgTalkDuration in min' by converting the 'AvgTalkDuration' values from the time format to minutes.
+
+* Handling Null Values: In the dataset, calls that were not answered had null values in the 'Speed_of_Answers_in_seconds' column. To enhance clarity and facilitate analysis, I replaced these null values with 0, indicating that no speed was recorded for these unanswered calls. 
+
+### 3.2 Measure Creation: DAX Functions
+
+After completing the data cleaning and processing steps, I proceeded to create measures using DAX functions. These measures are designed to provide key insights and calculations for the dashboard. Here are the measures I created:
+
+* **Answered Calls**: This measure utilizes the _COUNTROWS_ function in combination with the _FILTER_ function to calculate the total number of calls that were answered by an agent. This measure serves as a foundational metric for various calculations throughout the dashboard.
+* **Overall Satisfaction**: To determine the average satisfaction score, I employed the _DIVIDE_ function, along with the _SUM_ and _FILTER_ functions. This measure calculates the average satisfaction rating across all calls.
+* **Average Answer Speed**: To compute the average answer speed in seconds, I utilized the _DIVIDE_ function, as well as the _SUM_ and _FILTER_ functions. It is important to note that only answered calls should be included in this calculation, excluding unanswered calls. 
+* **Average Handling Time in min**: This measure uses the _DIVIDE_ function, along with the _SUM_ and _FILTER_ functions, to calculate the average handling time of calls. 
+
+## 4. Data Visualization
+
+To effectively showcase insights derived from the dataset, I employed various visualization techniques in the dashboard. Here are the visualizations I used:
+
+* **Power Card**: Power cards were utilized to show the key KPIs that offer a quick overview of important metrics. I used power cards to display the total number of calls, total answered calls, total abandoned calls, overall satisfaction score, and average speed of answers. 
+
+* **Line Chart**: A line chart was employed to illustrate the call trend over time. By plotting the number of calls on the y-axis and dates on the x-axis, stakeholders can easily observe any patterns or fluctuations in call volumes. 
+
+* **Stacked Bar Chart**: A stacked bar chart was utilized to present the top issue types reported by customers. By categorizing and visualizing the frequency of different issue types, stakeholders can gain insights into the most prevalent concerns. 
+
+* **Matrix Table**: A matrix table was employed to present both the average handling time and the total number of answered calls by agent. This table allows stakeholders to compare and analyze the performance of individual agents based on their average handling time and the volume of calls they have successfully answered. 
+
+The final dashboard is captured as below:
+![pwc call centre dashboard capture](call_centre_dashboard.png)
