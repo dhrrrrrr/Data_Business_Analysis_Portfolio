@@ -8,18 +8,23 @@ This repository is a place for me to share my projects and demonstrate my abilit
 
 ## Table of Contents
 1. [About Me](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#about-me-)
-2. [Portfolio Projects](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#portfolio-projects-)
-3. [Certificates](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#certificates-)
-4. [Contacts](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#Contacts-)
+2. [Portfolio Project](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#portfolio-projects-)
+3. [Study Project](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#study-projects-)
+4. [Certificate](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#certificates-)
+5. [Contact](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#Contacts-)
 
 
-## Portfolio Projects <a name="Projects"></a>
+## Portfolio Project <a name="Projects"></a>
 Below is the list of projects with brief descriptions.
 
 ### PwC Call Centre Trend Analysis
 **Description**: A virtual intership with PwC Switzerland. The objective of this project is to analyze a telecom call centre dataset. Create a dashboard in Power BI that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. <br />
 **Dataset**: [01 Call-Center-Dataset](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/PowerBI/PwC_Call_Centre_Analysis/01%20Call-Center-Dataset.xlsx) <br />
 **Dashboard and key findings**: [Call Centre Trend Analysis](PowerBI/PwC_Call_Centre_Analysis/Call-centre-analysis.pdf) 
+<br />
+**Skills**: Analytical thinking, data cleaning, data analysis, data visualization, problem solving.
+<br />
+**Tech skills**: Excel, DAX, PowerBI.
 
 <br />
 
@@ -27,6 +32,10 @@ Below is the list of projects with brief descriptions.
 **Description**: A virtual intership with PwC Switzerland. The objective of this project is to analyze customer data to provide insights and recommendations to the Retention Manager of a telecom company. The focus will be on understanding customer churn patterns, identifying key factors influencing churn, and developing strategies to improve customer retention.  <br />
 **Dataset**: [02 Churn-Dataset](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/tree/main/PowerBI/PwC_Customer_Churn_Analysis) <br />
 **Dashboard and report**: [Customer Churn Analysis](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/PowerBI/PwC_Customer_Churn_Analysis/Customer%20Retention%20Key%20Findings.pdf) 
+<br />
+**Skills**: Analytical thinking, data cleaning, data analysis, data visualization, problem solving.
+<br />
+**Tech skills**: Excel, DAX, PowerBI
 
 <br />
 
@@ -34,11 +43,17 @@ Below is the list of projects with brief descriptions.
 **Description**: A virtual intership with PwC Switzerland. The objective of this project is to conduct an analysis and visualization of diversity and inclusion within an organization. The ultimate goal is to identify areas of improvement and develop actionable strategies to foster a more diverse and inclusive work environment.  <br />
 **Dataset**: [03 Diversity-Inclusion-Dataset](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/tree/main/PowerBI/PwC_Diversity_Inclusion_Analysis) <br />
 **Dashboard and key findings**: [Diversity and Inclusion Analysis](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/PowerBI/PwC_Diversity_Inclusion_Analysis/Diversity%20and%20Inclusion%20Key%20Findings.pdf) 
+<br />
+**Skills**: Analytical thinking, data cleaning, data analysis, data visualization, problem solving.
+<br />
+**Tech skills**: Excel, DAX, PowerBI
 
+## Study Project <a name="study"></a>
+* SQL Exercises: [LeetCode Exercises Repo](https://github.com/dhrrrrrr/Leetcode_SQL_challenge)
 
-## Certificates <a name="Certificates"></a>
+## Certificate <a name="Certificates"></a>
 Google Business Intelligence by Cousera
 
-## Contacts <a name="Contacts"></a>
+## Contact <a name="Contacts"></a>
 * Email: haoranding1995@gmail.com
-* LinkedIn:
+* LinkedIn: https://www.linkedin.com/in/haoran-ding-405681108/
