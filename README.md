@@ -7,10 +7,11 @@ Hi, my name is Haoran. Welcome to my portfolio! I am passionate about leveraging
 This repository is a place for me to share my projects and demonstrate my abilities.
 
 ## Table of Contents
-1. [About Me](#About)
-2. [Portfolio Projects](#Projects)
-3. [Certificates](#Certificates)
-4. [Contacts](#Contacts)
+1. [About Me](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/edit/main/README.md#about-me-)
+2. [Portfolio Projects](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/edit/main/README.md#portfolio-projects-)
+3. [Certificates](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/edit/main/README.md#certificates-)
+4. [Contacts](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/edit/main/README.md#Contacts-)
+
 
 ## Portfolio Projects <a name="Projects"></a>
 Below is the list of projects with brief descriptions.
