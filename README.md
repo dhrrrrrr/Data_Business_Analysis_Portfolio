@@ -8,10 +8,10 @@ This repository is a place for me to share my projects and demonstrate my abilit
 
 ## Table of Contents
 1. [About Me](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#about-me-)
-2. [Portfolio Project](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#portfolio-projects-)
-3. [Study Project](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#study-projects-)
-4. [Certificate](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#certificates-)
-5. [Contact](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#Contacts-)
+2. [Portfolio Project](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#portfolio-project-)
+3. [Study Project](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#study-project-)
+4. [Certificate](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#certificate-)
+5. [Contact](https://github.com/dhrrrrrr/Data_Business_Analysis_Portfolio/blob/main/README.md#Contact-)
 
 
 ## Portfolio Project <a name="Projects"></a>
