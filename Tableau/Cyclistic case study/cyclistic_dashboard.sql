@@ -1,5 +1,7 @@
+--All source tables are available in BigQuery
+
 --Create a view to store bike trip information 
---Since the latested records in the citibike_trips are bewtween year 2017 and 2018, I extract the latest records for analysis
+--Since the most recent records in the citibike_trips are bewtween year 2017 and 2018, I extracted the latest records for analysis
 
 CREATE OR REPLACE VIEW `ba-project-390100.cyclistic.citibike_trips_view` AS
 SELECT
